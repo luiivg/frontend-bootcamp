@@ -10,7 +10,7 @@
 
 |**Emoji**|**Description**|**Check**|
 |---|---|---|
-|📝|[Bootcamp Notes in Markdown](Bootcamp notes/)||✅|
+|📝|[Bootcamp Notes in Markdown](Bootcamp_notes/)||✅|
 |📕|[Curriculum Vitae in Markdown]()||❓|
 |📗|[Curriculum Vitae in HTML]()||❓|
 |🖌|[Curriculum Vitae with Styles]()||❓|
