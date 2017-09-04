@@ -1,0 +1,32 @@
+{
+	"humanos": [{
+			"name": "miller",
+			"ege": 24,
+			"pets": ["cat", "dog", "fish"],
+			"friends": true,
+			"friendList": ["pedro", "jesus", "judas"]
+		},
+		{
+			"name": "henry",
+			"ege": 21,
+			"pets": ["cat", "dog"],
+			"friends": false,
+			"friendList": ["pedro", "jesus", "judas"]
+		},
+		{
+			"name": "juan",
+			"ege": 5,
+			"pets": ["cat", "dog"],
+			"friends": false,
+			"friendList": ["pedro", "jesus", "judas"]
+		},
+		{
+			"name": "dehivy",
+			"ege": 5,
+			"pets": ["cat", "dog"],
+			"friends": false,
+			"friendList": ["pedro", "jesus", "judas"]
+		}
+
+	]
+}

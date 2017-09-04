@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.carousel-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carousel-grid .carousel-item {
+  cursor: pointer;
+}
+
+.carousel-item {
+  border: 10px solid white;
+  border-radius: 2px;
+  margin: 50px 20px;
+  width: 200px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+.carousel-item img {
+  display: block;
+  width: 100%;
+  user-select: none;
+}
+.carousel-item figcaption {
+  height: 40px;
+  padding: 10px 0;
+  font-size: 14px;
+  background: white;
+}
+.carousel-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.carousel-modal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -5;
+}
+
+.carousel-modal-close::after {
+  background: black;
+  color: white;
+  border-radius: 50%;
+  font-family: FontAwesome;
+  content: '\f00d';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  border: 2px solid white;
+  cursor: pointer;
+  left: calc(50% - 17px);
+  right: calc(50% - 17px);
+  transform: translate(195px, -215px);
+  z-index: 10;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-modal-prev,
+.carousel-modal-next {
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.carousel-modal-next {
+  float: right;
+}
+
+.carousel-modal-controls {
+  width: 65%;
+  position: absolute;
+  min-width: 320px;
+  z-index: 5;
+  color: white;
+}
+
+.carousel-modal-content .carousel-item {
+  display: none;
+  position: relative;
+  width: 400px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-modal-content .carousel-item figcaption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.75;
+  background: white;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Utils */
+.hidden {
+  display: none;
+}
