@@ -6,11 +6,11 @@
 
 # 🎓 Bootcamp Front-end
 
-## 📆 Execises and Hombreworks:
+## 📆 Execises and Hombreworks
 
 |**Emoji**|**Description**|**Check**|
 |---|---|---|
-|📝|[Bootcamp Notes in Markdown]()||✅|
+|📝|[Bootcamp Notes in Markdown](Bootcamp notes/)||✅|
 |📕|[Curriculum Vitae in Markdown]()||❓|
 |📗|[Curriculum Vitae in HTML]()||❓|
 |🖌|[Curriculum Vitae with Styles]()||❓|
