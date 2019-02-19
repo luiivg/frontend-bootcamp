@@ -10,16 +10,16 @@
 
 |**Emoji**|**Description**|**Check**|
 |---|---|---|
-|📝|[Bootcamp Notes in Markdown](Bootcamp_notes/)||✅|
-|📕|[Curriculum Vitae in Markdown]()||❓|
-|📗|[Curriculum Vitae in HTML]()||❓|
-|🖌|[Curriculum Vitae with Styles]()||❓|
-|📘|[Curriculum Vitae with Semantic HTML]()||❓|
-|📙|[Curriculum Vitae with Contact Form]()||❓|
-|📦|[Curriculum Vitae Contact Form with DOM selection]()||❓|
-|🚀|[Curriculum Vitae with Responsive design]()||❓|
-|🎠|[Carousel grid with Flexbox](flexbox/)||✅|
-|💾|[Webtask exercise]()||❓|
-|💰|[Bank Account Exercise](bank.js)||✅|
-|💽|[JavaScripting Exercises](javascripting/)||✅|
-|👪|[JSON Humans exercise](humanos.json)||✅|
+|📝|[Bootcamp Notes in Markdown](Bootcamp_notes/)|✅|
+|📕|[Curriculum Vitae in Markdown]()|❓|
+|📗|[Curriculum Vitae in HTML]()|❓|
+|🖌|[Curriculum Vitae with Styles]()|❓|
+|📘|[Curriculum Vitae with Semantic HTML]()|❓|
+|📙|[Curriculum Vitae with Contact Form]()|❓|
+|📦|[Curriculum Vitae Contact Form with DOM selection]()|❓|
+|🚀|[Curriculum Vitae with Responsive design]()|❓|
+|🎠|[Carousel grid with Flexbox](flexbox/)|✅|
+|💾|[Webtask exercise]()|❓|
+|💰|[Bank Account Exercise](bank.js)|✅|
+|💽|[JavaScripting Exercises](javascripting/)|✅|
+|👪|[JSON Humans exercise](humanos.json)|✅|
